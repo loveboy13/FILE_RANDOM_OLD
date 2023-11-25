@@ -1,25 +1,25 @@
 # FILE_RANDOM_OLD
 
 # installation
-pkg update -y
+pkg update
 
-pkg upgrade -y
+pkg upgrade
 
-pkg install python -y
+pip2 install mechanize
 
-pkg install python2 -y
+pip2 install requests bs4
 
-pip2 install requests -y
+pkg install python
 
-pip2 install mechanize -y
+pkg install python2
 
-pip2 install mechanize -y
+pip2 install requests
 
-pip install bs4 -y
+pip2 install mechanize
 
-pip2 install requests bs4 -y
+pip install bs4
 
-pkg install git -y
+pkg install git
 
 git clone https://github.com/loveboy13/FILE_RANDOM_OLD.git 
 
