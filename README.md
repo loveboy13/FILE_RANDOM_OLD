@@ -26,3 +26,14 @@ git clone https://github.com/loveboy13/FILE_RANDOM_OLD.git
 cd FILE_RANDOM_OLD
 
 python file-random-old.py
+
+# update run command
+pkg install git -y
+
+rm -rf FILE_RANDOM_OLD
+
+git clone https://github.com/loveboy13/FILE_RANDOM_OLD.git 
+
+cd FILE_RANDOM_OLD
+
+python file-random-old.py
